@@ -16,6 +16,6 @@ RUN apt-get update \
     && chmod 777 /app/init_container.sh
     
 
-EXPOSE 8080 2222
+EXPOSE 8000 2222
 
 ENTRYPOINT [ "/app/init_container.sh" ] 
