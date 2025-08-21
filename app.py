@@ -2,7 +2,7 @@ from flask import Flask, Response
 import os
 
 app = Flask(__name__)
-file_path = '/shared/myfile.txt'
+file_path = '/mount/sshcontainerfileshare/datafiles/myfile.txt'
 
 @app.route('/')
 def read_file():
